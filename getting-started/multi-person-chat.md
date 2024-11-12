@@ -1,6 +1,10 @@
 # Multi-Person Chat
 
-![](<../.gitbook/assets/image (21) (2).png>)
+There's different ways to achieve a chat-room like experience with VDO.Ninja, and most users would be best served using a group room for this, however, below we cover a method that does not use[ a group room](https://docs.vdo.ninja/getting-started/rooms).\
+\
+I like to call this a faux-room setup, and understanding how it works and how to create one will give you better insights into how VDO.Ninja works.
+
+![A manually defined 2-way chat, with OBS Studio as an observer](<../.gitbook/assets/image (21) (2).png>)
 
 ## Two-Person Chat
 
