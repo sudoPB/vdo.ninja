@@ -38,7 +38,7 @@
   * [Mic test](https://vdo.ninja/mictest)
 * [Guides](guides/README.md)
   * [Cheat Sheets](guides/cheat-sheets.md)
-  * [How Group Chat works](help/how-does-group-chat-work.md)
+  * [Common questions re: Rooms](help/how-does-group-chat-work.md)
   * [Video bitrate for push/view links](guides/video-bitrate-for-push-view-links.md)
   * [Video bitrate in rooms](guides/video-bitrate-in-rooms.md)
   * [Basic hotkeys](guides/hotkey-support/README.md)
