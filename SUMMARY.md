@@ -631,6 +631,7 @@
   * [Can't screen share Adobe Lightroom](common-errors-and-known-issues/cant-screen-share-adobe-lightroom.md)
   * [Decklink support?](common-errors-and-known-issues/decklink-support.md)
   * [iOS audio stops during phone calls](common-errors-and-known-issues/ios-audio-stops-during-phone-calls.md)
+  * [Can't turn off echo-cancellation on macOS](common-errors-and-known-issues/cant-turn-off-echo-cancellation-on-macos.md)
 * [Platform specific issues](platform-specific-issues/README.md)
   * [Android](platform-specific-issues/android.md)
   * [macOS](platform-specific-issues/macos.md)
