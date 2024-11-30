@@ -46,7 +46,7 @@ If the OBS Virtual Camera is not appearing in Chrome or your browser after insta
     <figure><img src="../.gitbook/assets/image (12) (2) (2).png" alt=""><figcaption></figcaption></figure>
 3. For OBS, enable the permission.\
    \
-   _If OBS isn't listed, click the + button, enter your system's password, and navigate to OBS in the Application settings. Select it and enable._\
+   &#xNAN;_&#x49;f OBS isn't listed, click the + button, enter your system's password, and navigate to OBS in the Application settings. Select it and enable._\
 
 4.  Quit and relaunch OBS.\
 

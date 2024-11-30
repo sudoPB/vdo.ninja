@@ -20,7 +20,7 @@ You'll also need a pristine Internet connection to maintain a low-latency and sm
 \
 Alias:  [`https://vdo.ninja/?push=SOMESTREAMID&ss&q=0`](https://vdo.ninja/?push=SOMESTREAMID\&ss\&q=0)\
 \
-Copy one of the two links above and **change **_**SOMESTREAMID**_** into a different name**. The name picked just needs to be a unique alphanumeric value is not already in active use.
+Copy one of the two links above and **change&#x20;**_**SOMESTREAMID**_**&#x20;into a different name**. The name picked just needs to be a unique alphanumeric value is not already in active use.
 
 You can also add [`&fps=60`](../advanced-settings/video-parameters/and-fps.md) to the link, to attempt to force 60-fps, but the default with [`&quality=0`](../advanced-settings/video-parameters/and-quality.md) is already 60-fps.
 

@@ -86,7 +86,7 @@ When recording with PCM, ([`&pcm`](and-pcm.md)) the inbound audio bitrate will b
 {% hint style="warning" %}
 * If recording with an Nvidia/AMD graphics card installed on your computer, ensure your drivers are up to date or try recording with VP8-codec instead. Hardware-encoding might reduce CPU load, but it can also result in discolored video if the driver is buggy.
 * Safari browsers and iOS devices may struggle with media recording.
-* Enabling Safari's _MediaRecorder_ under E_xperimental webKit Features_ may be needed. As well, users may be asked to download a file once the recording ends, for the webM media file to be saved correctly to disk.
+* Enabling Safari's _MediaRecorder_ under &#x45;_&#x78;perimental webKit Features_ may be needed. As well, users may be asked to download a file once the recording ends, for the webM media file to be saved correctly to disk.
 {% endhint %}
 
 ## Related

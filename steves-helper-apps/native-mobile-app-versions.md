@@ -52,7 +52,7 @@ You can also download and install the Android APK file manually:
 
 {% embed url="https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=sharing" %}
 Download the APK directly from Google Drive, without using the Google Play store\
-_(Manually installing will requires manual updating, as well.  APK last updated May 12, 2022)_
+&#xNAN;_(Manually installing will requires manual updating, as well.  APK last updated May 12, 2022)_
 {% endembed %}
 
 Lastly, you can also download the source-code for the Android app, allowing you to build and install the app yourself.

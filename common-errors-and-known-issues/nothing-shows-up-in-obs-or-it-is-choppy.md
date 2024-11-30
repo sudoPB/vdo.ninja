@@ -6,7 +6,11 @@ description: >-
 
 # Nothing shows up in OBS or it is choppy
 
+
+
 ![Disabling or enabling the hardware acceleration in OBS can sometimes fix choppy or missing video.](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+
+<figure><img src="../.gitbook/assets/image (254).png" alt=""><figcaption><p>Make sure that the custom frame rate is not set</p></figcaption></figure>
 
 ## macOS
 
@@ -43,7 +47,7 @@ Ensure that the “Enable Browser Source Hardware Acceleration” checkbox is ch
 * Check to make sure you are not behind a corporate firewall or on a VPN (see Network issues below). Sometimes using a Firewall can actually help, such as if the guest is in mainland China, where a VPN service (like ExpressVPN) has been able to bypass the Great Firewall of China.
 * Disable any anti-virus or other security software. If using PFSense firewall, ensure you are whitelisting the IP address of the remote camera source or allowing webRTC-related UDP traffic. While use PFSense may still work, if you do not open the correct ports, frame loss may be significant if relying on the public TURN servers for high-bandwidth data transit.
 * If the video is choppy, be sure there is no packet loss. Adding `&stats` to the VDO.Ninja URL link will display the stats in the OBS Browser source, on top of the video.  A high-packet loss, higher than 0.3%, can result in signifcant frame loss, while 3% packet loss is nearly unusable.
-* You can also download the Electron Capture app, and use that instead of OBS browser source: [https://github.com/steveseguin/electroncapture](https://www.google.com/url?q=https://github.com/steveseguin/electroncapture\&sa=D\&source=editors\&ust=1619943104618000\&usg=AOvVaw2vbHW2zTdxaCofB42QQ\_fT)
+* You can also download the Electron Capture app, and use that instead of OBS browser source: [https://github.com/steveseguin/electroncapture](https://www.google.com/url?q=https://github.com/steveseguin/electroncapture\&sa=D\&source=editors\&ust=1619943104618000\&usg=AOvVaw2vbHW2zTdxaCofB42QQ_fT)
 * Make sure you have not disabled webRTC with your browser; you can confirm you have webRTC disabled with your browser(s) here: [https://browserleaks.com/webrtc](https://browserleaks.com/webrtc)
 * As a final resort, consider using a Cloud-hosted version of OBS instead, such as on Paperspace or AWS /w Parsec installed.
 

@@ -28,13 +28,13 @@ You can speak to the guest via the director's control center, which will provide
 
 In this mode, there is no group room, and all guest stream IDs need to be manually specified. You can typically get excellent 1080p recording quality though with the following parameters:\
 \
-**Guest link:** [`https://vdo.ninja/?push=GUEST_ID&quality=0&proaudio&view=HOST_ID&vb=200&ab=16`](https://vdo.ninja/?push=GUEST\_ID\&quality=0\&proaudio\&view=HOST\_ID\&vb=200\&ab=16)
+**Guest link:** [`https://vdo.ninja/?push=GUEST_ID&quality=0&proaudio&view=HOST_ID&vb=200&ab=16`](https://vdo.ninja/?push=GUEST_ID\&quality=0\&proaudio\&view=HOST_ID\&vb=200\&ab=16)
 
-**Host link:** [`https://vdo.ninja/?push=HOST_ID&view=GUEST_ID&vb=50&ab=16`](https://vdo.ninja/?push=HOST\_ID\&view=GUEST\_ID\&vb=50\&ab=16)
+**Host link:** [`https://vdo.ninja/?push=HOST_ID&view=GUEST_ID&vb=50&ab=16`](https://vdo.ninja/?push=HOST_ID\&view=GUEST_ID\&vb=50\&ab=16)
 
-**OBS link\*:** [`https://vdo.ninja/?view=GUEST_ID&vb=12000&ab=128&scale=100`](https://vdo.ninja/?view=GUEST\_ID\&vb=12000\&ab=128\&scale=100) \
+**OBS link\*:** [`https://vdo.ninja/?view=GUEST_ID&vb=12000&ab=128&scale=100`](https://vdo.ninja/?view=GUEST_ID\&vb=12000\&ab=128\&scale=100) \
 \
-_\* Note the OBS Browser source should be set to a width of 1920 and a height of 1080._
+&#xNAN;_\* Note the OBS Browser source should be set to a width of 1920 and a height of 1080._
 
 The idea here is both you and the guest can talk to each other in the browser, at relatively very low quality, while in OBS you are capturing a very high quality version of just the guest. I'd imagine you can record the host locally in OBS, without needing VDO.Ninja in most cases.
 
