@@ -57,7 +57,7 @@ Sometimes this minimum resolution is 640x360, but other times it might be 1920x1
 
 ### Embedded and Linux hardware-encoding support
 
-If you're comfortable with Linux, basic publishing into VDO.Ninja is available using GStreamer and Python. The project is located here: [https://github.com/steveseguin/raspberry\_ninja/](https://github.com/steveseguin/raspberry\_ninja/)
+If you're comfortable with Linux, basic publishing into VDO.Ninja is available using GStreamer and Python. The project is located here: [https://github.com/steveseguin/raspberry\_ninja/](https://github.com/steveseguin/raspberry_ninja/)
 
 Hardware encoding with multiple viewer per encoded stream is supported with this option, although features are limited. It is not for the faint of heart; generally this approach is still reserved for hobbyists, enthusiasts, and developers. A Raspberry Pi can publish 1080p30 to VDO.Ninja, and supports HDMI connected cameras; at least when using this project's code.
 
@@ -71,7 +71,13 @@ The project will hopefully keep expanding, to include more devices and operating
 
 While AV1 hardware encoders are not common at the moment, they should be supported as they are adopted by browsers and hardware manufactures. `&codec=av1`\
 \
-H265/HEVC however isn't commonly supported by browsers, although Thorium / Safari browsers may support it, it's not an officially supported option. You can give it a try however by using `&codec=h265`.
+H265/HEVC however isn't commonly supported by browsers, although Thorium / Safari browsers may support it, it's not an officially supported option. You can give it a try however by using `&codec=h265`.\
+\
+Update, as of December _2024_: If running Chrome on PC, you try enabling H265 support by using the following command line to start your Chrome instance:\
+\
+`chrome.exe --enable-features=PlatformHEVCEncoderSupport,WebRtcAllowH265Receive,WebRtcAllowH265Send --force-fieldtrials=WebRTC-Video-H26xPacketBuffer/Enabled`
+
+You can see if your Chrome browser has H265 support enabled by going to https://vdo.ninja/whip and checking out the drop-down list of available codecs.
 
 ### OBS WHIP and WHEP
 
