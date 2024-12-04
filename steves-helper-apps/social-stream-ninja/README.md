@@ -7,7 +7,7 @@ description: >-
 # Social Stream Ninja
 
 {% embed url="https://socialstream.ninja" %}
-[https://github.com/steveseguin/social\_stream#readme](https://github.com/steveseguin/social\_stream#readme)
+[https://github.com/steveseguin/social\_stream#readme](https://github.com/steveseguin/social_stream#readme)
 {% endembed %}
 
 Consolidate your live social messaging streams, including YouTube, Twitch, and more, into a single chat stream that can be docked into OBS and be used to to select featured chat messages as an overlay.
@@ -22,7 +22,7 @@ Get support on the Discord if you have any problems: [💬│social-stream-ninja
 
 I'm putting out a "still-in-development preview" version of the **Social Stream Standalone App**
 
-[**https://github.com/steveseguin/social\_stream/releases**](https://github.com/steveseguin/social\_stream/releases)\
+[**https://github.com/steveseguin/social\_stream/releases**](https://github.com/steveseguin/social_stream/releases)\
 \
 I've been poking at this project for the past year, and due to frequent requests for it I'm making it available as a preview-build.
 
@@ -30,7 +30,7 @@ I'd say 90% of the features available in the extension work in this standalone v
 
 Available as an installer for Windows x64 and MacOS.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Updates
 

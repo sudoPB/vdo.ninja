@@ -19,7 +19,7 @@
 * Added `{setBufferDelay:1000, UUID:"*", streamID: "abc"}` and `{getGuestList:true}` to the VDO.Ninja IFrame API
   * `setBufferDelay` lets you specify the video delay for a specific video, by a specific UUID or streamID, all videos (`UUID:"*"`), or the default buffer delay.
 * `&morescenes=12` added, which lets you specify more numerical scenes buttons; 9 or higher as an integer can be passed.\
-  ![](<../.gitbook/assets/image (1) (1) (1).png>)
+  ![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 \*\* on vdo.ninja/alpha/
 
@@ -113,7 +113,7 @@
     * The option does not show if joining a room or screen sharing, etc - just sharing your camera, as that is the workflow that some users are having issues with.
 
     \*\* on alpha for testing at [https://vdo.ninja/alpha/](https://vdo.ninja/alpha/)\
-    ![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+    ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
 #### January 22 <a href="#august-31" id="august-31"></a>
 
@@ -136,7 +136,7 @@
 
 * The [`&welcome`](../newly-added-parameters/and-welcome.md) message on VDO.Ninja will auto hide after 30-seconds now, and the close button is also big and red, to be more obvious.
   * on alpha for testing ([vdo.ninja/alpha/?welcome=hello](https://vdo.ninja/alpha/?welcome=hello))\
-    ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
+    ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### January 10 <a href="#august-31" id="august-31"></a>
 
@@ -298,11 +298,7 @@
     * This is only usable when the browser tab is in focus
     * If you have conflicts with this option, please let me know and I'll change it up
 
-    <div align="left">
-
-    <figure><img src="../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure>
-
-    </div>
+    <div align="left"><figure><img src="../.gitbook/assets/image (211).png" alt=""><figcaption></figcaption></figure></div>
 
     \*\* on alpha for test; [vdo.ninja/alpha/](https://vdo.ninja/alpha/)
 *   I put together a code example of how to use the IFrame API of VDO.Ninja to remotely control OBS; so you don't need to use the built-in controller menu, but you can make your own and integrate it into your own web apps.
@@ -323,11 +319,7 @@
     * I may adjust the default value in the mixer based on user issue reports.
     * The slider doesn't appear if not using the [`&limittotalbitrate`](../advanced-settings/video-bitrate-parameters/limittotalbitrate.md) value in the URL (or if not using the Mixer App). It's just too confusing to explain to include it by default.
 
-    <div align="left">
-
-    <figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-    </div>
+    <div align="left"><figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
     \*\* change on alpha
 *   Fixed [`&webp`](../advanced-settings/view-parameters/webp.md) + [`&codec=webp`](../advanced-settings/view-parameters/codec.md#webp) + `&alpha` so it properly supports alpha channels. Still a hacky mess, but if your needs are modest it can offer transparent streaming video when using [`&fileshare`](../source-settings/and-fileshare.md) /w a transparent WebM video source (or a virtual background /w a transparent png)\
@@ -465,11 +457,7 @@ This feature is just for fun at the moment. It's does not do automatic p2p2p bro
 
 *   I now include a trouble solving tip for users with extremely high audio sample rates set, which is the cause for some microphones not to work.
 
-    <div align="left">
-
-    <figure><img src="../.gitbook/assets/image (188).png" alt="" width="331"><figcaption></figcaption></figure>
-
-    </div>
+    <div align="left"><figure><img src="../.gitbook/assets/image (188).png" alt="" width="331"><figcaption></figcaption></figure></div>
 * Added [`&nodirectorvideo`](../advanced-settings/video-parameters/and-nodirectorvideo.md) and [`&nodirectoraudio`](../advanced-settings/audio-parameters/and-nodirectoraudio.md) to VDO.Ninja; these are just like [`&novideo`](../advanced-settings/video-parameters/and-novideo.md) and [`&noaudio`](../advanced-settings/view-parameters/noaudio.md), except they only apply to incoming connections from room directors. So, if your are using the [Mixer App](../steves-helper-apps/mixer-app.md) with OBS, but you want to exclude the audio of yourself from the OBS, this potentially could be an easy way to do that.
 
 \*\* on alpha at vdo.ninja/alpha/
@@ -529,7 +517,7 @@ If you want the VDO.Ninja self-preview to not be mini-sized in broadcast mode, w
 
 * Updated [`&structure`](../advanced-settings/design-parameters/and-structure.md) to work with [`&cover`](../advanced-settings/view-parameters/cover.md), allowing for some more flexibility with controlling fixed aspect-ratios from the viewer/scene side.\
   ie: `https://vdo.ninja/alpha/?room=XXXXX&scene&cover&structure&square&fakeguests=10`\
-  ![](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png>)![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 * Fixed a couple bugs, such as the local screen share preview not re-appearing after full-windowing another guest's video while screen sharing.
 
 \*\* on alpha
@@ -694,8 +682,8 @@ meshcastcodec == whipoutcodec, woc
 
 Option for a custom hang-up message added to VDO.Ninja.\
 \-- [`&hangupmessage`](../advanced-settings/setup-parameters/and-hangupmessage-alpha.md) (or `&hum`) , which take a URL encoded string. So it can be just "bye", or it can be some HTML, as shown in the link\
-\-- eg: [https://vdo.ninja/alpha/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM](https://vdo.ninja/alpha/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM)\
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)\
+\-- eg: [https://vdo.ninja/alpha/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM](https://vdo.ninja/alpha/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo_cropped.png%22%3E\&push=ZimFGxM)\
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)\
 \
 \* on alpha
 
@@ -758,7 +746,7 @@ Option for a custom hang-up message added to VDO.Ninja.\
   These flags in theory I think should help try to force a bitrate or resolution, regardless of network conditions, but in practice they still seem to just smash your frame rate. I haven't really been able to find a good use for them yet, but let me know.
 * Fixed an issue where when you hung up on an iPhone, it would still stay the camera/mic was in use at the goodbye/reload page.
 * Added the "test" audio output button to the in-call settings menu (as seen in image).\
-  ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 * Fixed an issue with Firefox mobile's camera rotation being wrong in the local preview. (let me know tho if the issues continues tho)
 * Firefox mobile should not go to sleep any more when idle.
 
@@ -1558,7 +1546,7 @@ https://vdo.ninja/alpha/?view=YbFmisR&poster=./media/bg_sample.webp&hideplaybutt
 #### January 4 <a href="#august-31" id="august-31"></a>
 
 * Added support for remote PowerPoint slide control. (previous/next slide)\
-  \-- Documented things quite a bit here: [https://github.com/steveseguin/powerpoint\_remote](https://github.com/steveseguin/powerpoint\_remote)\
+  \-- Documented things quite a bit here: [https://github.com/steveseguin/powerpoint\_remote](https://github.com/steveseguin/powerpoint_remote)\
   \-- I've only tested with Windows + PowerPoint so far, but it can be tweaked to work with more than PPT without much trouble.\
   \-- Uses AutoHotKey + VDO.Ninja + MIDI to achieve the result; quite a few different ways implement it, with samples provided\
   \-- built-in basic controller added, via [`&powerpoint`](../advanced-settings/settings-parameters/and-powerpoint.md) (aliases: `&slides`, `&ppt`, `&pptcontrols`)\
@@ -1615,7 +1603,7 @@ https://vdo.ninja/alpha/?view=YbFmisR&poster=./media/bg_sample.webp&hideplaybutt
 
 * I created a guide + script for offline / local-only deployment of VDO.Ninja, so using it without Internet, connected to a router-only or something.\
   \-- I've tested it on a raspberry pi, and have included the resulting RPI image as well, if you want to quick deploy it, but the guide is pretty simple as well.\
-  [https://github.com/steveseguin/offline\_deployment](https://github.com/steveseguin/offline\_deployment)\
+  [https://github.com/steveseguin/offline\_deployment](https://github.com/steveseguin/offline_deployment)\
   \-- please note: there is already code / instructions for self-deploying VDO.Ninja; this new repo is specifically to help non-techies use VDO.Ninja offline.
 * Also fixed a minor issue where specifying a custom handshake server via index.html was adding a needless URL param to all links; pushed that fix to GitHub already.
 
@@ -2227,7 +2215,7 @@ https://vdo.ninja/alpha/?view=YbFmisR&poster=./media/bg_sample.webp&hideplaybutt
 #### July 1
 
 * The WSS API (wss://api.vdo.ninja) has been expanded to include hang up events for publishers, along with viewer-side events for incoming connections/streams. These efforts will lead to a richer StreamDeck integration.
-* Add [`&background`](../advanced-settings/design-parameters/and-background.md), which accepts a URL-encoded image URL to make as the app's default background. For example, [`https://vdo.ninja/alpha/?appbg=./media/logo_cropped.png`](https://vdo.ninja/alpha/?appbg=./media/logo\_cropped.png) . The image will scale in size to cover the VDO.Ninja app's background. [`&chroma`](../advanced-settings/design-parameters/chroma.md) can still be used to set the background color, if using transparencies. There already exists [`&bgimage`](../advanced-settings/design-parameters/and-bgimage.md), which will set the default background image for videos; this however will set a background image for the entire page.\
+* Add [`&background`](../advanced-settings/design-parameters/and-background.md), which accepts a URL-encoded image URL to make as the app's default background. For example, [`https://vdo.ninja/alpha/?appbg=./media/logo_cropped.png`](https://vdo.ninja/alpha/?appbg=./media/logo_cropped.png) . The image will scale in size to cover the VDO.Ninja app's background. [`&chroma`](../advanced-settings/design-parameters/chroma.md) can still be used to set the background color, if using transparencies. There already exists [`&bgimage`](../advanced-settings/design-parameters/and-bgimage.md), which will set the default background image for videos; this however will set a background image for the entire page.\
   ![](<../.gitbook/assets/image (2) (5) (1) (1).png>)\
   \
   \*\* These changes are on alpha
@@ -2410,7 +2398,7 @@ https://vdo.ninja/alpha/?view=YbFmisR&poster=./media/bg_sample.webp&hideplaybutt
 
 
     \*\* on vdo.ninja/beta/ (all current code is up to date on beta)
-* [`&bgimage=`](../advanced-settings/design-parameters/and-bgimage.md) can be used to set the default image avatar, when using [`&style=0`](../advanced-settings/design-parameters/style.md) or `&style=6`. This only impacts what the person with the parameter added sees and must be either a URL or a base64 data image/SVG. URL-encoded values. on alpha ie: [https://vdo.ninja/alpha/?view=aSmexM6\&style=0\&nocontrols\&bgimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Fold\_icon.png](https://vdo.ninja/alpha/?view=aSmexM6\&style=0\&nocontrols\&bgimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Fold\_icon.png)\
+* [`&bgimage=`](../advanced-settings/design-parameters/and-bgimage.md) can be used to set the default image avatar, when using [`&style=0`](../advanced-settings/design-parameters/style.md) or `&style=6`. This only impacts what the person with the parameter added sees and must be either a URL or a base64 data image/SVG. URL-encoded values. on alpha ie: [https://vdo.ninja/alpha/?view=aSmexM6\&style=0\&nocontrols\&bgimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Fold\_icon.png](https://vdo.ninja/alpha/?view=aSmexM6\&style=0\&nocontrols\&bgimage=https%3A%2F%2Fvdo.ninja%2Fmedia%2Fold_icon.png)\
   ![](<../.gitbook/assets/image (157).png>)
 * [`&controls=0`](../advanced-settings/newly-added-parameters/and-videocontrols.md) \[`off`/`false`] or [`&nocontrols`](../advanced-settings/settings-parameters/and-nocontrols.md), will force hide the video control bar. (on local dev atm)
 * Added the option to set a dedicated hold-to-talk key to VDO.Ninja; `CTRL+M` can work in place of this still by default, but this lets you set a custom combo/key that doesn't act as a mute toggle at all (if just tapped accidentally) \*\* This is on alpha\

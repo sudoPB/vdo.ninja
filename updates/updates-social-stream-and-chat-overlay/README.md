@@ -11,9 +11,9 @@
 
 #### For the newest updates to Social Stream Ninja, please visit the Discord at https://discord.socialstream.ninja or you can check out [https://updates.vdo.ninja/](https://updates.vdo.ninja/).
 
-#### Updates specifically for the Standalone app for Social Stream Ninja can be found here: [https://github.com/steveseguin/social\_stream/releases](https://github.com/steveseguin/social\_stream/releases)
+#### Updates specifically for the Standalone app for Social Stream Ninja can be found here: [https://github.com/steveseguin/social\_stream/releases](https://github.com/steveseguin/social_stream/releases)
 
-#### For those technically inclined, code updates can be found here: [https://github.com/steveseguin/social\_stream/commits/main/](https://github.com/steveseguin/social\_stream/commits/main/)
+#### For those technically inclined, code updates can be found here: [https://github.com/steveseguin/social\_stream/commits/main/](https://github.com/steveseguin/social_stream/commits/main/)
 
 #### \[The following is no longer being kept up to date, as I just don't have time to manually update this section anymore]
 
@@ -42,7 +42,7 @@
 #### February 11
 
 * Added a way to clear / reset all your Social Stream settings\
-  ![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 * You can block the host/bots from showing up in chat now via the general-settings section, rather than the dock section, in Social Stream. This is to provide bot blocking support for the new direct to featured chat option
 
 #### February 8
@@ -152,7 +152,7 @@
 #### **January 5**
 
 * The emotes wall in Social Stream supports flag emojis correctly now\
-  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 * Twitter post support fixed in Social Stream
 
 #### **January 3**
@@ -174,11 +174,7 @@
     * Also added an insta-hide and -block button to threads; cause why not.
     * Canadian users aren't blocked from linking out.
 
-    <div align="left">
-
-    <figure><img src="../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
-
-    </div>
+    <div align="left"><figure><img src="../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure></div>
 
 #### **December 17**
 
@@ -212,7 +208,7 @@
 
 * Live.space fix out for Social Stream, along with an opt-in channel feature, to avoid picking up chat from other channels
 * Fixed some CSS issues, such as bubble-mode not including the name in the bubble when there was no message content\
-  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### **November 28**
 
@@ -251,11 +247,7 @@
     * No functions like TTS or customization via URL parameters; it's just a simple fixed overlay with minimal code.
     * It can be used as a featured overlay or as a dock-alternative, with all messages. see the code for reference.
 
-    <div align="left">
-
-    <figure><img src="../../.gitbook/assets/image (216).png" alt="" width="213"><figcaption></figcaption></figure>
-
-    </div>
+    <div align="left"><figure><img src="../../.gitbook/assets/image (216).png" alt="" width="213"><figcaption></figcaption></figure></div>
 
 #### **November 17**
 
@@ -279,14 +271,10 @@
     * You can also use the "filter messages" text bar in the dock menu to do th same, using `source:youtube` if you wanted to just show youtube, or `source:!youtube` if you wanted anything but YouTube chat.
     * tl;dr; Twitch officially allows simulcasting now, but not consolidated chat, so this I hope might help with that.
 
-    <div align="left">
-
-    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-    </div>
+    <div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 * For Tiktok, I added 'subscriber', 'moderator', and 'rank' colors to user names. I welcome feedback.\
   ![](<../../.gitbook/assets/image (4) (1).png>)
-* Also updated the Social Stream standalone app; [https://github.com/steveseguin/social\_stream/releases/tag/0.1.4](https://github.com/steveseguin/social\_stream/releases/tag/0.1.4) (mac/win64)
+* Also updated the Social Stream standalone app; [https://github.com/steveseguin/social\_stream/releases/tag/0.1.4](https://github.com/steveseguin/social_stream/releases/tag/0.1.4) (mac/win64)
   * It's still very much in 'just a preview test" mode, though I've trying to work thru all the issues. Please bare with me if you have issues with it.
 * Also added an option to have emotes from members-only show up on the emotes wall.\
   ![](<../../.gitbook/assets/image (5) (1).png>)
@@ -294,13 +282,13 @@
 #### **November 9**
 
 * Twitter live video chat supported by Social Stream now. No avatar support, but that's coming eventually.\
-  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
 
 #### **November 5**
 
 * I updated the sample `custom.js` file for Social Stream with the option to allow your public chat to control your OBS scenes with chat `!commands`.
   * In the provided sample code, when a guest types `!cycle` into chat, it will tell your OBS to switch to the next available scene, cycling between them all. Timeout of 10-seconds between uses.
-  * More details and the code, check out here: [https://github.com/steveseguin/social\_stream/issues/148#issuecomment-1793594605](https://github.com/steveseguin/social\_stream/issues/148#issuecomment-1793594605)
+  * More details and the code, check out here: [https://github.com/steveseguin/social\_stream/issues/148#issuecomment-1793594605](https://github.com/steveseguin/social_stream/issues/148#issuecomment-1793594605)
 
 #### **October 30**
 
@@ -308,16 +296,12 @@
 
     * If the file is present in your extension's folder, messages will be filtered out (\*\*) if they are not included in the provided good words list.
 
-    <div align="left">
-
-    <figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-    </div>
+    <div align="left"><figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 #### **October 29**
 
 * Added flag support to Social Stream\
-  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### **October 28**
 
@@ -327,14 +311,14 @@
 #### **October 27**
 
 * Added support for Ko-Fi's donations to Social Stream; works via WebHook\
-  Details here: [https://github.com/steveseguin/social\_stream/blob/main/README.md#ko-fi-webhook-donation-support](https://github.com/steveseguin/social\_stream/blob/main/README.md#ko-fi-webhook-donation-support)\
+  Details here: [https://github.com/steveseguin/social\_stream/blob/main/README.md#ko-fi-webhook-donation-support](https://github.com/steveseguin/social_stream/blob/main/README.md#ko-fi-webhook-donation-support)\
   ![](<../../.gitbook/assets/image (205).png>)
 
 #### **October 26**
 
 * MacOS support added to the Standalone version of Social Stream
 * Several bugs fixed in the standalone version\
-  [https://github.com/steveseguin/social\_stream/releases/tag/0.1.1](https://github.com/steveseguin/social\_stream/releases/tag/0.1.1)
+  [https://github.com/steveseguin/social\_stream/releases/tag/0.1.1](https://github.com/steveseguin/social_stream/releases/tag/0.1.1)
 
 #### **October 25**
 
@@ -358,13 +342,9 @@
   \-- I'd say 90% of the features available in the extension work in this standalone version, with the interface about 50% done.\
   \-- Available as an installer for Windows x64 only at this point, but a Mac build is probably not far off.
 
-[https://github.com/steveseguin/social\_stream/releases/tag/0.0.1](https://github.com/steveseguin/social\_stream/releases/tag/0.0.1)
+[https://github.com/steveseguin/social\_stream/releases/tag/0.0.1](https://github.com/steveseguin/social_stream/releases/tag/0.0.1)
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure></div>
 
 #### **October 12**
 
@@ -404,13 +384,13 @@
   \-- The sampleapi.html page has some test buttons to trigger (as shown in second screen shot)\
   \-- You'll need to enable the remote http/wss API in the general extension settings to enable this remote API\
   \-- The API can be triggered via HTTP, so you can use it with a streamdeck; ie: `https://api.vdo.ninja/SESSIONIDHERE/highlightwaitlist/0`\
-  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### **September 26**
 
 * steamcommunity.com live chat added to Social Stream. ie: `https://steamcommunity.com/broadcast/chatonly/XXXXXXX`
 * MS Teams now is opt-in for Social Stream\
-  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### **September 25**
 
@@ -456,7 +436,7 @@
 #### **August 28**
 
 * I've expanded the number of translation text fragments for Social Stream to over 330, so if you're bored, feel free to contribute your language.\
-  \-- A page is up on how to contribute translations (simple enough): [https://github.com/steveseguin/social\_stream/tree/main/translations](https://github.com/steveseguin/social\_stream/tree/main/translations)\
+  \-- A page is up on how to contribute translations (simple enough): [https://github.com/steveseguin/social\_stream/tree/main/translations](https://github.com/steveseguin/social_stream/tree/main/translations)\
   \-- We've already had a few sentences in German contributed by our resident Paddy Lu.\
   ![](<../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
@@ -468,7 +448,7 @@
   \-- Actual translations for other languages still need to be actually added. (difficulty level: 3/10)\
   \-- (German was added\*)
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### **August 24**
 
@@ -528,7 +508,7 @@ On Social Stream now:
   \-- the more engaged your viewers are with the chat, the higher the score. Might encourage more chatting.\
   \-- this is a new dedicated overlay page\
   \-- basic styling options included, such as align left/right, disabling outlining, scale, etc\
-  ![](<../../.gitbook/assets/image (11) (1).png>)![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (11) (1).png>)![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### **August 12**
 
@@ -559,7 +539,7 @@ On Social Stream now:
     \-- Name, Message, and donation amount are support currently\
     \-- Use a Stripe payment link (as a donation page if needed), point it to the SocialStream webhook API , and make a few setting changes\
     \-- And you're good to go\
-    \-- Details/Guide: [https://github.com/steveseguin/social\_stream/blob/main/README.md#stripe-webhook-donation-support](https://github.com/steveseguin/social\_stream/blob/main/README.md#stripe-webhook-donation-support)\
+    \-- Details/Guide: [https://github.com/steveseguin/social\_stream/blob/main/README.md#stripe-webhook-donation-support](https://github.com/steveseguin/social_stream/blob/main/README.md#stripe-webhook-donation-support)\
     ![](<../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png>)
 
 #### **July 31**
@@ -571,7 +551,7 @@ On Social Stream now:
 #### **July 30**
 
 * Support for `vstream.com` and `live.space` added to Social Stream\
-  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### **July 25**
 
@@ -604,7 +584,7 @@ On Social Stream now:
 
 #### **July 10**
 
-* Added ElevenLabs.io Text to Speech support to Social Stream ; [https://github.com/steveseguin/social\_stream/blob/main/README.md#eleven-labs-tts](https://github.com/steveseguin/social\_stream/blob/main/README.md#eleven-labs-tts)\
+* Added ElevenLabs.io Text to Speech support to Social Stream ; [https://github.com/steveseguin/social\_stream/blob/main/README.md#eleven-labs-tts](https://github.com/steveseguin/social_stream/blob/main/README.md#eleven-labs-tts)\
   this service seems to allow you to train your own custom high quality speech models? anyways, it's available now.
 * Google premium TTS and elevenlabs TTS added have support now in the dock.html page (not just in the index.html). TTS messages will queue automatically and will be cleared with the TTS is stopped/paused.
 * Added Threads.net support to Social Stream (little button appears under each post to let you select).\
@@ -836,7 +816,7 @@ Social Stream updates for today:
 
 * Social Stream has had the "open chat automatically" functionality improved a lot the last couple days. @River played a large part in that.
 * Added to Social Stream the option to map a chat command to some webhook API. Just an easy way to get started with making bot-actions, such as turning on a light. Happy to evolve this based on feedback.\
-  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### **February 22**
 
@@ -947,7 +927,7 @@ Social Stream updates for today:
 
 #### **December 18**
 
-* Details on how to publish messages from Social Stream to third-party overlay systems is up: [https://github.com/steveseguin/social\_stream/blob/main/README.md#remote-server-api-support-publish-messages-to-third-parties](https://github.com/steveseguin/social\_stream/blob/main/README.md#remote-server-api-support-publish-messages-to-third-parties)\
+* Details on how to publish messages from Social Stream to third-party overlay systems is up: [https://github.com/steveseguin/social\_stream/blob/main/README.md#remote-server-api-support-publish-messages-to-third-parties](https://github.com/steveseguin/social_stream/blob/main/README.md#remote-server-api-support-publish-messages-to-third-parties)\
   \
   So far support for singular, h2r, and generic post requests is available.
 
@@ -996,7 +976,7 @@ Social Stream updates for today:
 #### **November 13**
 
 * Added the `&js` command to Socialstream by request, so you can inject custom javascript into the dock or overlay pages. Just make sure its URL encoded. Example use: [https://socialstream.ninja/index.html?session=test123\&js=https%3A%2F%2Fvdo.ninja%2Fexamples%2Ftestjs.js](https://socialstream.ninja/index.html?session=test123\&js=https%3A%2F%2Fvdo.ninja%2Fexamples%2Ftestjs.js)\
-  More details here: [https://github.com/steveseguin/social\_stream/blob/main/README.md#custom-javascript](https://github.com/steveseguin/social\_stream/blob/main/README.md#custom-javascript)
+  More details here: [https://github.com/steveseguin/social\_stream/blob/main/README.md#custom-javascript](https://github.com/steveseguin/social_stream/blob/main/README.md#custom-javascript)
 
 #### **November 8**
 
@@ -1021,7 +1001,7 @@ Social Stream updates for today:
 
 #### **October 2**
 
-* Updated Socialstream to support custom themes/templates. I've provided an example theme that you can use or base your own themes on. see: [https://github.com/steveseguin/social\_stream/tree/main/themes](https://github.com/steveseguin/social\_stream/tree/main/themes) for more.\
+* Updated Socialstream to support custom themes/templates. I've provided an example theme that you can use or base your own themes on. see: [https://github.com/steveseguin/social\_stream/tree/main/themes](https://github.com/steveseguin/social_stream/tree/main/themes) for more.\
   ![](<../../.gitbook/assets/image (7) (1) (2).png>)
 * Added more animated style options for how messages appear into the chat stream, such as slide in, fade in, and drop in.\
   ![](<../../.gitbook/assets/image (8) (1) (1) (3).png>)
@@ -1118,7 +1098,7 @@ Social Stream updates for today:
 
 #### July 22
 
-* Added google cloud premium text to speech support to socialstream.ninja. You need to bring your own API key though; I'm not including that part. details on GitHub: [https://github.com/steveseguin/social\_stream#premium-tts-voice-options](https://github.com/steveseguin/social\_stream#premium-tts-voice-options)
+* Added google cloud premium text to speech support to socialstream.ninja. You need to bring your own API key though; I'm not including that part. details on GitHub: [https://github.com/steveseguin/social\_stream#premium-tts-voice-options](https://github.com/steveseguin/social_stream#premium-tts-voice-options)
 
 #### July 19
 

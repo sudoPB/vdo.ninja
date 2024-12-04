@@ -10,9 +10,9 @@
 #### January 9
 
 * An option to generate the random password is available\
-  ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 * The background Image URL field now is accompanied by a carousel gallery of AI-generated background images to use\
-  ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png>)
+  ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 * You can host your own images at Imgur or such still, but to make life easier, I'm offer hosted options. Let me know if you want more added
 * The room name is listed now in the top-right of the Mixer App
 * If the room has a password set, there is a button to copy-to-clipboard the password\
@@ -33,11 +33,7 @@
 * I may adjust the default value in the mixer based on user issue reports
 * The slider doesn't appear if not using the [`&limittotalbitrate`](../advanced-settings/video-bitrate-parameters/limittotalbitrate.md) value in the URL (or if not using the Mixer App). It's just too confusing to explain to include it by default.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 \*\* change on alpha
 

@@ -163,7 +163,7 @@ You can still capture audio via OBS Browser source, appending [`&novideo`](../..
 
 More recently, with newer versions of OBS, you can capture an application's audio using OBS natively, but with older versions you can use the following OBS plugin to also do it: [https://github.com/bozbez/win-capture-audio](https://github.com/bozbez/win-capture-audio)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>New option in OBS for capture a window's audio</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>New option in OBS for capture a window's audio</p></figcaption></figure>
 
 \
 **Changing the audio output device**
@@ -188,7 +188,7 @@ While there is no native Syphon or NDI output option yet available, one user has
 
 #### Automation Workflows with VDO.Ninja
 
-You can see a quick start / cheat sheet guide for example uses of the app with VDO.Ninja here: [https://github.com/steveseguin/vdo.ninja/blob/quickstart/automation/cheatsheet\_obsn\_automation.md](https://github.com/steveseguin/vdo.ninja/blob/quickstart/automation/cheatsheet\_obsn\_automation.md)
+You can see a quick start / cheat sheet guide for example uses of the app with VDO.Ninja here: [https://github.com/steveseguin/vdo.ninja/blob/quickstart/automation/cheatsheet\_obsn\_automation.md](https://github.com/steveseguin/vdo.ninja/blob/quickstart/automation/cheatsheet_obsn_automation.md)
 
 ### Notes on Using and Closing the App
 

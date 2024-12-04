@@ -21,8 +21,8 @@ Example: `&hangupmessage=bye<img%20src%3D".%2Fmedia%2Flogo_cropped.png">`
 Option for a custom hang-up message. `&hangupmessage` takes a URL encoded string. So it can be just "bye", or it can be some HTML, as shown in the link.
 
 eg:\
-[https://vdo.ninja/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM](https://vdo.ninja/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM)\
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+[https://vdo.ninja/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo\_cropped.png%22%3E\&push=ZimFGxM](https://vdo.ninja/?hum=bye%3Cimg%20src%3D%22.%2Fmedia%2Flogo_cropped.png%22%3E\&push=ZimFGxM)\
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## Related
 

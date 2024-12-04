@@ -25,7 +25,7 @@
 #### January 5
 
 * I've built a test version of the VDO.Ninja Android native app, which now should support passwords. I've yet to do proper testing of it, but if you want to give it a shot, I welcome feedback as to whether it worked or not for you:
-  * [https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=drive\_link](https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=drive\_link)
+  * [https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=drive\_link](https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=drive_link)
 
 ### 2023
 
@@ -36,7 +36,7 @@
   \-- Also has forced-landscape mode support (I had to wait until iOS 17 launched to be able to release it)\
   [https://apps.apple.com/app/vdo-ninja/id1607609685?platform=iphone](https://apps.apple.com/app/vdo-ninja/id1607609685?platform=iphone)
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 #### September 10
 
@@ -95,7 +95,7 @@
   \
   Audio for both android and iOS is still from the microphone, and not the internal system audio. I'll try to fix that, but it's quite the challenge for me. It probably wouldn't be too challenging for a more experienced mobile developer to get working though, along with perhaps HDMI support.\
   \
-  The app code's repo is here, [https://github.com/steveseguin/vdon\_flutter](https://github.com/steveseguin/vdon\_flutter), if you wanted to pull and build it yourself. Ill continue to work on it this weekend, improving the UI/UX, and maybe have whatever progress I make then be pushed to the public live app store during the work week. There's some additional features and polish I want to get in before doing the final app submission.\
+  The app code's repo is here, [https://github.com/steveseguin/vdon\_flutter](https://github.com/steveseguin/vdon_flutter), if you wanted to pull and build it yourself. Ill continue to work on it this weekend, improving the UI/UX, and maybe have whatever progress I make then be pushed to the public live app store during the work week. There's some additional features and polish I want to get in before doing the final app submission.\
   \
   \[update; the beta link should be live now]
 
@@ -106,7 +106,7 @@
 #### April 3
 
 * Added an audio-only option to the VDO.Ninja native app. For now, it's available for Android via sideloading, with the app store versions being updated later on.\
-  [https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share\_link](https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share\_link)\
+  [https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share\_link](https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share_link)\
   \
   ![](<../.gitbook/assets/image (180).png>)\
 
@@ -116,7 +116,7 @@
 * Updated the Android app to support offline/fully-self-hosted deployments of VDO.Ninja, by request.\
   \-- just click the "Advanced" toggle on it setup page, then enter your custom WSS address in the field.\
   \
-  Until I push this into the Google Play / App store, you can grab the sideloadable APK here: [https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share\_link](https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share\_link) \
+  Until I push this into the Google Play / App store, you can grab the sideloadable APK here: [https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share\_link](https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share_link) \
   \
   (btw, I am very much welcoming any experienced help in adding USB/HDMI support to the native app)
 
@@ -145,7 +145,7 @@
 
 * I updated the native Android app for VDO.Ninja to include support for publishing into a VDO.Ninja room, and fixed a couple UI bugs, along with improved 1080p toggle support.\
   \-- Note: If using a room, you will need to still add [`&password=false`](../advanced-settings/setup-parameters/and-password.md) (`&p=0`) to all the guests/scenes, as I haven't added password support to the native app yet.\
-  \-- You can download it directly here: [https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share\_link](https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share\_link)\
+  \-- You can download it directly here: [https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share\_link](https://drive.google.com/file/d/1M0kv5nWLtcfl2JOnsAGiG1zUmkeIVLyZ/view?usp=share_link)\
   or in the Google Play Store:\
   [https://play.google.com/store/apps/details?id=flutter.vdo.ninja\&hl=gsw\&gl=US\&pli=1](https://play.google.com/store/apps/details?id=flutter.vdo.ninja\&hl=gsw\&gl=US\&pli=1)\
   ![](<../.gitbook/assets/image (6) (5).png>)&#x20;

@@ -15,7 +15,7 @@ Viewer-Side Option! ([`&view`](view.md), [`&scene`](scene.md), [`&room`](../../g
 
 Example: `&codec=h264`
 
-<table><thead><tr><th width="176">Value</th><th>Description</th></tr></thead><tbody><tr><td><a href="codec.md#h264"><code>h264</code></a></td><td>request the h264 codec </td></tr><tr><td><a href="codec.md#vp8"><code>vp8</code></a></td><td>request the VP8 codec </td></tr><tr><td><a href="codec.md#vp9"><code>vp9</code></a></td><td>request the VP9 codec</td></tr><tr><td><a href="codec.md#av1"><code>av1</code></a></td><td>request the AV1 codec</td></tr><tr><td><a href="codec.md#webp"><code>webp</code></a></td><td>request the webp codec</td></tr><tr><td><a href="codec.md#hardware"><code>hardware</code></a></td><td>request the h264 codec and<a href="../../newly-added-parameters/and-h264profile.md"><code>&#x26;h264profile</code></a></td></tr><tr><td><a href="codec.md#comma-seperated-update-in-v23-on-alpha"><code>av1,h264</code></a></td><td>Comma separated values that define the order of preferred video codecs if the primary one fails</td></tr></tbody></table>
+<table><thead><tr><th width="176">Value</th><th>Description</th></tr></thead><tbody><tr><td><a href="codec.md#h264"><code>h264</code></a></td><td>request the h264 codec </td></tr><tr><td><a href="codec.md#vp8"><code>vp8</code></a></td><td>request the VP8 codec </td></tr><tr><td><a href="codec.md#vp9"><code>vp9</code></a></td><td>request the VP9 codec</td></tr><tr><td><a href="codec.md#av1"><code>av1</code></a></td><td>request the AV1 codec</td></tr><tr><td><code>h265</code></td><td>request the H265 codec</td></tr><tr><td><a href="codec.md#webp"><code>webp</code></a></td><td>request the webp codec</td></tr><tr><td><a href="codec.md#hardware"><code>hardware</code></a></td><td>request the h264 codec and<a href="../../newly-added-parameters/and-h264profile.md"><code>&#x26;h264profile</code></a></td></tr><tr><td><a href="codec.md#comma-seperated-update-in-v23-on-alpha"><code>av1,h264</code></a></td><td>Comma separated values that define the order of preferred video codecs if the primary one fails</td></tr></tbody></table>
 
 ### Example usage
 
@@ -100,6 +100,20 @@ AV1 is the most advanced codec, but also the most CPU-intensive to use.
 Requires Chrome v90 or newer on both publisher and viewer to work. The Electron Capture app 2.6.0 and newer supports AV1, as well. OBS Studio v27.2 and newer \*may\* also support it, but as of the time of this writing, that hasn't been confirmed.
 
 Experimental at this point in time and may not perform well, but if very bandwidth constrained, it is a worthwhile option.
+
+### H265
+
+#### H265 / HEVC <a href="#h265-hevc-av1" id="h265-hevc-av1"></a>
+
+H265, also known as HEVC or H.265, is a fairly modern and yet common video codec, being cable capable of high efficiency video compression. It's non-free however, so its availability in browsers is rather limited. Safari-based browsers and the Thorium browser should support it however natively.\
+\
+If running Chrome on PC, you try enabling H265 support manually however by using the following command line to start your Chrome instance:\
+\
+&#x20;`chrome.exe --enable-features=PlatformHEVCEncoderSupport,WebRtcAllowH265Receive,WebRtcAllowH265Send --force-fieldtrials=WebRTC-Video-H26xPacketBuffer/Enabled`\
+\
+![](../../.gitbook/assets/image.png)
+
+For more help with enabling H265 on your browser, or to see if your browser currently supports it, please see: [https://vdo.ninja/h265](https://vdo.ninja/h265)
 
 ### WEBP
 
